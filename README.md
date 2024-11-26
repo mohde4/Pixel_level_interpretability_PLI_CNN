@@ -5,7 +5,7 @@ The Ennab-Mcheick algorithm for Pixel-Level Interpretability (PLI) is designed t
 # System Requirements for Running the PLI Model
 To run the Pixel-Level Interpretability (PLI) model effectively, the following system requirements are recommended:
 
-Hardware Requirements
+# Hardware Requirements
 Processor:
 
 Minimum: Quad-core CPU (e.g., Intel Core i5, AMD Ryzen 5)
@@ -22,7 +22,7 @@ Storage:
 
 Minimum: 256 GB SSD
 Recommended: 1 TB SSD for fast read/write access to datasets and intermediate results
-Monitor Resolution:
+# Monitor Resolution:
 
 Full HD (1920 x 1080) minimum for visualizing heatmaps and results
 Software Requirements
@@ -41,14 +41,14 @@ NumPy, Pandas (for data manipulation)
 Matplotlib, Seaborn (for visualization)
 Scikit-learn (for preprocessing and additional machine learning utilities)
 Fuzzy Logic Libraries: Scikit-fuzzy or custom implementations
-Visualization Tools:
+# Visualization Tools:
 
 Jupyter Notebook or JupyterLab for running and analyzing experiments
 Optional (Hardware Acceleration):
 
 CUDA Toolkit (for NVIDIA GPUs)
 cuDNN library
-Dataset Requirements
+# Dataset Requirements
 Image Formats: DICOM, PNG, or JPEG
 Resolution: Standardized to 512x512 pixels for preprocessing
 Storage: Approximately 50 GB of free disk space for datasets, logs, and outputs
