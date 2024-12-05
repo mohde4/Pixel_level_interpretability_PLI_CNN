@@ -28,7 +28,6 @@ The study utilizes publicly available chest X-ray datasets. Download the dataset
 - **NIH Chest X-rays Dataset**
 - **COVID-19 Radiography Database**
 - **CheXpert Dataset**
-- **Preprocessing**
 
 ## Preprocessing steps include:
 - **Resizing images to 224x224 pixels.**
