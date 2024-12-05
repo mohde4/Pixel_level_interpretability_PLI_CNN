@@ -15,13 +15,13 @@ This repository supports:
 
 ## 2. Requirements
 To run the scripts, you need the following dependencies:
-- **Python >= 3.8
-- **TensorFlow >= 2.x
-- **NumPy
-- **OpenCV
-- **Matplotlib
-- **Pandas
-- Scikit-learn
+- **Python >= 3.8**
+- **TensorFlow >= 2.x**
+- **NumPy**
+- **OpenCV**
+- **Matplotlib**
+- **Pandas**
+- **Scikit-learn**
 ## 3. Dataset Information
 The study utilizes publicly available chest X-ray datasets. Download the datasets from:
 
@@ -31,11 +31,11 @@ The study utilizes publicly available chest X-ray datasets. Download the dataset
 - **Preprocessing**
 
 ## Preprocessing steps include:
-Resizing images to 224x224 pixels.
-Normalizing pixel values.
-Reducing noise using Gaussian filtering.
-Applying data augmentation techniques such as rotation and flipping.
-To preprocess the data, run:
+- **Resizing images to 224x224 pixels.**
+- **Normalizing pixel values.**
+- **Reducing noise using Gaussian filtering.**
+- **Applying data augmentation techniques such as rotation and flipping.**
+## To preprocess the data, run:
 Install dependencies using:
 ```bash
 pip install -r requirements.txt
@@ -54,7 +54,8 @@ Adjust parameters such as learning rates, epochs, and fuzzification thresholds i
 }
 python validate_model.py --data_path data/test --model_path models/pli_model.h5
 python generate_logs.py --output_path logs/
-10. Troubleshooting
+```
+## Troubleshooting
 Dataset Issues: Ensure datasets are downloaded and paths are specified correctly in the scripts.
 Memory Errors: Reduce batch size or use a GPU for training to handle large datasets.
 Script Errors: Check if required dependencies are installed and compatible with your system.
