@@ -25,10 +25,10 @@ To run the scripts, you need the following dependencies:
 ## 3. Dataset Information
 The study utilizes publicly available chest X-ray datasets. Download the datasets from:
 
-- **NIH Chest X-rays Dataset
-- **COVID-19 Radiography Database
-- **CheXpert Dataset
-- **Preprocessing
+- **NIH Chest X-rays Dataset**
+- **COVID-19 Radiography Database**
+- **CheXpert Dataset**
+- **Preprocessing**
 
 ## Preprocessing steps include:
 Resizing images to 224x224 pixels.
