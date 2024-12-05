@@ -56,6 +56,6 @@ python validate_model.py --data_path data/test --model_path models/pli_model.h5
 python generate_logs.py --output_path logs/
 ```
 ## Troubleshooting
-Dataset Issues: Ensure datasets are downloaded and paths are specified correctly in the scripts.
-Memory Errors: Reduce batch size or use a GPU for training to handle large datasets.
-Script Errors: Check if required dependencies are installed and compatible with your system.
+- **Dataset Issues: Ensure datasets are downloaded and paths are specified correctly in the scripts.**
+- **Memory Errors: Reduce batch size or use a GPU for training to handle large datasets.**
+- **Script Errors: Check if required dependencies are installed and compatible with your system.**
